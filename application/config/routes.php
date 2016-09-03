@@ -49,29 +49,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['auction'] = "auction";
-$route['auction/list'] = "auction/play";
+$route['auction'] = "Auction";
+$route['auction/list'] = "Auction/play";
 
-$route['bidding'] = "bidding";
-$route['bidding/display'] = "bidding/displayPlayer";
-$route['bidding/savebid'] = "bidding/saveBid";
+$route['bidding'] = "Bidding";
+$route['bidding/display'] = "Bidding/displayPlayer";
+$route['bidding/savebid'] = "Bidding/saveBid";
 
-$route['makecaptain'] = "makecaptain";
-$route['makecaptain/getplayer/(:num)'] = "makecaptain/getPlayer/$1";
-$route['makecaptain/savecaptain'] = "makecaptain/saveCaptain";
+$route['makecaptain'] = "Makecaptain";
+$route['makecaptain/getplayer/(:num)'] = "Makecaptain/getPlayer/$1";
+$route['makecaptain/savecaptain'] = "Makecaptain/saveCaptain";
 
-$route['dashboard'] = "dashboard";
-$route['regplayer'] = "regplayer";
-$route['regplayer/save'] = "regplayer/savePlayer";
-$route['regteam'] = "regteam";
-$route['regteam/save'] = "regteam/saveTeam";
-$route['team/(:num)'] = "team/index/$1";
-$route['team/(:num)'] = "team/index/$1";
+$route['dashboard'] = "Dashboard";
+$route['regplayer'] = "Regplayer";
+$route['regplayer/save'] = "Regplayer/savePlayer";
+$route['regteam'] = "Regteam";
+$route['regteam/save'] = "Regteam/saveTeam";
+$route['team/(:num)'] = "Team/index/$1";
+$route['team/(:num)'] = "Team/index/$1";
 
-$route['login'] = 'main/login';
-$route['logout'] = 'main/logout';
+$route['login'] = 'Main/login';
+$route['logout'] = 'Main/logout';
 
 
-$route['default_controller'] = 'main';
+$route['default_controller'] = 'Main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
