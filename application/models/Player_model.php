@@ -27,7 +27,7 @@ class Player_model extends CI_Model {
 
     public function ScramblePlayer(){
 
-        // $this->db->order_by('rand()');
+        $this->db->order_by('rand()');
         $query = $this->db->get_where('players', array('team_id'=> 0));
         if($query->num_rows()>0)
         {
